@@ -2,9 +2,10 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="module" target="21" />
-      <module name="module.main" target="21" />
-      <module name="module.test" target="21" />
+      <module name="Lab2" target="21" />
+      <module name="Laborator2" target="21" />
+      <module name="Laborator2.src.main.resources.main" target="21" />
+      <module name="Laborator2.src.main.resources.test" target="21" />
     </bytecodeTargetLevel>
   </component>
 </project>
