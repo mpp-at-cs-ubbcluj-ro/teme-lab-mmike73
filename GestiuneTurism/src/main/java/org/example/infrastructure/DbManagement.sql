@@ -1,7 +1,11 @@
 CREATE DATABASE "GestiuneTurism";
 
-\c "GestiuneTurism";
+\connect "GestiuneTurism";
 
+CREATE TABLE "AgentiiTurism" (
+    "agentieId" INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    "numeAgentie" VARCHAR(50)
+);
 
 CREATE TABLE "Angajati" (
     "angajatId" INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
@@ -17,7 +21,7 @@ CREATE TABLE "Rezervari" (
     "agentieId" INT,
     "telefon" VARCHAR(15),
     "nrLocuriRezervate" INT,
-    CONSTRAINT fk_Agentie_Rezervari FOREIGN KEY ("agentieId") REFERENCES "AgentiiTurism"("agentieId")
+    CONSTRAINT "fk_Agentie_Rezervari" FOREIGN KEY ("agentieId") REFERENCES "AgentiiTurism"("agentieId")
 );
 
 CREATE TABLE "Excursii" (
@@ -28,8 +32,14 @@ CREATE TABLE "Excursii" (
     "pret" INT,
     "dataOraPlecare" TIMESTAMP
 );
+ALTER TABLE "Rezervari" ADD COLUMN "excursieId" INT;
+ALTER TABLE "Rezervari" ADD CONSTRAINT "fk_Rezervari_Excursii" FOREIGN KEY ("excursieId") REFERENCES "Excursii"("excursieId");
 
-CREATE TABLE "AgentiiTurism" (
-    "agentieId" INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
-    "numeAgentie" VARCHAR(50)
-)
+ALTER TABLE "Excursii" DROP COLUMN "pret";
+ALTER TABLE "Excursii" ADD COLUMN "pret" INT;
+
+
+DROP  TABLE "Angajati";
+DROP  TABLE "Excursii";
+DROP  TABLE "Rezervari";
+DROP  TABLE "AgentiiTurism";

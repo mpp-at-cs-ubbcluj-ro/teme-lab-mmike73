@@ -2,12 +2,13 @@ package org.example.repo;
 
 import org.example.domain.Entity;
 
+import java.util.List;
 import java.util.Optional;
 
 public interface Repository<ID, E extends Entity<ID>> {
     Optional<E> findById(ID id);
 
-    Iterable<E> findAll();
+    List<E> findAll();
 
     Optional<E> save(E entity);
 
