@@ -1,0 +1,12 @@
+2025-03-18 19:33:28 [main] INFO  org.example.infrastructure.AgentieRepository - AgentieTurism - findById: 1
+2025-03-18 19:33:29 [main] INFO  org.example.infrastructure.AgentieRepository - AgentieTurism - findById: 2
+2025-03-18 19:33:29 [main] INFO  org.example.infrastructure.AngajatRepository - Finding angajat 3
+2025-03-18 19:33:29 [main] INFO  org.example.infrastructure.AngajatRepository - Finding angajat 4
+2025-03-18 19:33:29 [main] INFO  org.example.infrastructure.ExcursieRepository - Excursie - findById: 3
+2025-03-18 19:33:29 [main] ERROR org.example.infrastructure.ExcursieRepository - The column name pret was not found in this ResultSet.
+2025-03-18 19:34:46 [main] INFO  org.example.infrastructure.AgentieRepository - AgentieTurism - findById: 1
+2025-03-18 19:34:46 [main] INFO  org.example.infrastructure.AgentieRepository - AgentieTurism - findById: 2
+2025-03-18 19:34:46 [main] INFO  org.example.infrastructure.AngajatRepository - Finding angajat 3
+2025-03-18 19:34:46 [main] INFO  org.example.infrastructure.AngajatRepository - Finding angajat 4
+2025-03-18 19:34:46 [main] INFO  org.example.infrastructure.ExcursieRepository - Excursie - findById: 3
+2025-03-18 19:34:46 [main] INFO  org.example.infrastructure.ExcursieRepository - Excursie - findById: 4
