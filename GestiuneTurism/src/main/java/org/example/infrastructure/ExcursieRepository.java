@@ -1,20 +1,22 @@
 package org.example.infrastructure;
 
 import org.example.domain.Excursie;
-import org.example.repo.AbstractDbRepository;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.example.repo.IExcursieRepository;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-public class ExcursieRepository extends AbstractDbRepository<Integer, Excursie> {
+public class ExcursieRepository implements IExcursieRepository {
     private static final Logger LOG = LogManager.getLogger(ExcursieRepository.class);
+    private DbConnection dbConnection;
 
     public ExcursieRepository(DbConnection dbConnection) {
-        super(dbConnection);
+
+        this.dbConnection = dbConnection;
     }
 
     @Override
@@ -153,5 +155,29 @@ public class ExcursieRepository extends AbstractDbRepository<Integer, Excursie> 
         }
 
         return Optional.empty();
+    }
+
+    public int remaingSeats(Excursie entity) throws SQLException {
+        LOG.info("Checking number of places for {}", entity);
+
+        String query = "SELECT SUM(\"nrLocuriRezervate\") AS locuri_ramase FROM \"Rezervari\" WHERE \"excursieId\" = ?";
+
+        try {
+            PreparedStatement preparedStatement = dbConnection.getConn().prepareStatement(query);
+            preparedStatement.setInt(1, entity.getId());
+            ResultSet resultSet = preparedStatement.executeQuery();
+
+            if (resultSet.next()) {
+                int nr_locuri_coupate = resultSet.getInt("locuri_ramase");
+                System.out.println(" " + nr_locuri_coupate + " - " + entity.getNrLocuri());
+                return entity.getNrLocuri() - nr_locuri_coupate;
+            }
+
+        } catch (SQLException e) {
+            LOG.error(e.getMessage());
+            e.printStackTrace();
+        }
+
+        throw new SQLException("Excursia nu exista!");
     }
 }

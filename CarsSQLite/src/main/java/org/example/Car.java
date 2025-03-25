@@ -11,6 +11,13 @@ public class Car implements Identifiable<Integer> {
         this.year = year;
     }
 
+    public Car(Integer id, String manufacturer, String model, int year) {
+        this.id = id;
+        this.manufacturer = manufacturer;
+        this.model = model;
+        this.year = year;
+    }
+
     public String getManufacturer() {
         return manufacturer;
     }

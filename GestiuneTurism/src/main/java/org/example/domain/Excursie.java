@@ -64,4 +64,8 @@ public class Excursie extends Entity<Integer> {
         this.pret = pret;
     }
 
+    @Override
+    public String toString() {
+        return obiectiv + " - " +  firmaTransport +  " - " + pret + " - " + dataOraPlcare;
+    }
 }

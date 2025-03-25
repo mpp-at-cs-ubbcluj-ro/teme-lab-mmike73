@@ -2,9 +2,9 @@ package org.example.infrastructure;
 
 import org.example.domain.AgentieTurism;
 import org.example.domain.Angajat;
-import org.example.repo.AbstractDbRepository;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.example.repo.IAngajatRepository;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -14,11 +14,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-public class AngajatRepository extends AbstractDbRepository<Integer, Angajat> {
+public class AngajatRepository implements IAngajatRepository {
     private final Logger LOG = LogManager.getLogger(this.getClass());
+    protected DbConnection dbConnection;
 
     public AngajatRepository(DbConnection dbConnection) {
-        super(dbConnection);
+        this.dbConnection = dbConnection;
     }
 
     @Override
@@ -170,6 +171,46 @@ public class AngajatRepository extends AbstractDbRepository<Integer, Angajat> {
 
             return Optional.of(entity);
 
+        } catch (SQLException e) {
+            LOG.error(e.getMessage());
+            e.printStackTrace();
+        }
+        return Optional.empty();
+    }
+
+    public Optional<Angajat> findByUsername(String username) {
+        LOG.info("Angajat - findByUsername: {}", username);
+        String query = "SELECT * FROM \"Angajati\" WHERE \"username\" = ?";
+
+        try {
+            PreparedStatement preparedStatement = dbConnection.getConn().prepareStatement(query);
+            preparedStatement.setString(1, username);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            if (resultSet.next()) {
+                Angajat angajat = new Angajat(
+                        resultSet.getInt("angajatId"),
+                        resultSet.getString("username"),
+                        resultSet.getString("password"),
+                        null
+                );
+
+                Integer agentieId = resultSet.getInt("agentieId");
+                AgentieTurism agentieTurism = null;
+
+                String queryAgentieTurism = "SELECT * FROM \"AgentiiTurism\" WHERE \"agentieId\" = ?";
+                PreparedStatement preparedStatementAgentieTurism = dbConnection.getConn().prepareStatement(queryAgentieTurism);
+                preparedStatementAgentieTurism.setInt(1, agentieId);
+                ResultSet resultSetAgentieTurism = preparedStatementAgentieTurism.executeQuery();
+                if (resultSetAgentieTurism.next()) {
+                    agentieTurism = new AgentieTurism(
+                            resultSetAgentieTurism.getInt("agentieId"),
+                            resultSetAgentieTurism.getString("numeAgentie")
+                    );
+                }
+                angajat.setAgentieTurism(agentieTurism);
+
+                return Optional.of(angajat);
+            }
         } catch (SQLException e) {
             LOG.error(e.getMessage());
             e.printStackTrace();

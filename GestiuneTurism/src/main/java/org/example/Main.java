@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.GUI.MainWindow;
 import org.example.domain.AgentieTurism;
 import org.example.domain.Angajat;
 import org.example.domain.Excursie;
@@ -11,7 +12,9 @@ import java.time.format.DateTimeFormatter;
 import java.util.Optional;
 
 public class Main {
-    public static void main(String[] args) {
+
+
+    private static void cli_app() {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss.SSS");
 
         DbConnection dbConnection = new DbConnection(
@@ -30,8 +33,8 @@ public class Main {
 //        agentieTurism = agentieRepository.save(agentieTransilvania);
 //        agentieReMax = agentieRepository.save(agentieReMax);
 
-        Optional<AgentieTurism> agentieTransilvania = agentieRepository.findById(1);
-        Optional<AgentieTurism> agentieReMax = agentieRepository.findById(2);
+//        Optional<AgentieTurism> agentieTransilvania = agentieRepository.findById(1);
+//        Optional<AgentieTurism> agentieReMax = agentieRepository.findById(2);
 
 //        Angajat angajatMihai = new Angajat("Mihai", "bugudum", agentieTransilvania.get());
 //        Angajat angajatRoli = new Angajat("Roli", "bugudum", agentieReMax.get());
@@ -59,5 +62,35 @@ public class Main {
 
 
         System.out.println("Correct");
+    }
+
+    private static void gui_app(String[] args) {
+
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss.SSS");
+
+        DbConnection dbConnection = new DbConnection(
+                "jdbc:postgresql://localhost:5432/GestiuneTurism",
+                "mihai",
+                "mpp"
+        );
+
+        AngajatRepository angajatRepository = new AngajatRepository(dbConnection);
+        AgentieRepository agentieRepository = new AgentieRepository(dbConnection);
+        ExcursieRepository excursieRepository = new ExcursieRepository(dbConnection);
+        RezervareRepository rezervareRepository = new RezervareRepository(dbConnection);
+
+        AppController appController = new AppController(agentieRepository, angajatRepository, excursieRepository, rezervareRepository);
+
+        MainWindow mainWindow = new MainWindow();
+        mainWindow.setAppController(appController);
+        mainWindow.main(args);
+
+        //service
+        //cautare dupa oobiectiv -- cerinte
+
+    }
+
+    public static void main(String[] args) {
+        gui_app(args);
     }
 }

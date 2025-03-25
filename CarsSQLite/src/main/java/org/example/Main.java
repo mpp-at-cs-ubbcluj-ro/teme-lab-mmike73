@@ -20,7 +20,7 @@ public class Main {
 //        carRepo.add(new Car("Rolls Royce", "Phantom", 1972));
 //        carRepo.add(new Car("VW", "Passat", 1995));
 
-
+        carRepo.update(20, new Car("Alfa Romeo", "Polo", 2006));
 
         System.out.println("Toate masinile din db");
         for(Car car:carRepo.findAll())

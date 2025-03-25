@@ -1,12 +1,11 @@
 package org.example.infrastructure;
 
 import org.example.domain.AgentieTurism;
-import org.example.domain.Angajat;
 import org.example.domain.Excursie;
 import org.example.domain.Rezervare;
-import org.example.repo.AbstractDbRepository;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.example.repo.IRezervareRepository;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -16,20 +15,19 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-public class RezervareRepository extends AbstractDbRepository<Integer, Rezervare> {
+public class RezervareRepository implements IRezervareRepository {
     private static final Logger LOG = LogManager.getLogger(RezervareRepository.class);
+    private DbConnection dbConnection;
 
     public RezervareRepository(DbConnection dbConnection) {
-
-        super(dbConnection);
-
+        this.dbConnection = dbConnection;
     }
 
     @Override
     public Optional<Rezervare> delete(Rezervare entity) {
         LOG.info("Rezervare - delete: {}", entity);
 
-        String query = "DELETE FROM Rezervari WHERE rezervareId = ?";
+        String query = "DELETE FROM \"Rezervari\" WHERE \"rezervareId\" = ?";
 
         try {
             PreparedStatement preparedStatement = dbConnection.getConn().prepareStatement(query);
@@ -50,7 +48,7 @@ public class RezervareRepository extends AbstractDbRepository<Integer, Rezervare
     public Optional<Rezervare> findById(Integer integer) {
         LOG.info("Rezervare - findById: {}", integer);
 
-        String query = "SELECT * FROM Rezervari WHERE rezervareId = ?";
+        String query = "SELECT * FROM \"Rezervari\" WHERE \"rezervareId\" = ?";
 
         try {
             PreparedStatement preparedStatement = dbConnection.getConn().prepareStatement(query);
@@ -68,7 +66,7 @@ public class RezervareRepository extends AbstractDbRepository<Integer, Rezervare
                 );
 
                 int idExcursie = resultSet.getInt("excursieId");
-                String queryExcursie = "SELECT * FROM Excursii WHERE excursieId = ?";
+                String queryExcursie = "SELECT * FROM \"Excursii\" WHERE \"excursieId\" = ?";
                 PreparedStatement preparedStatementExcursie = dbConnection.getConn().prepareStatement(queryExcursie);
                 preparedStatementExcursie.setInt(1, idExcursie);
                 ResultSet resultSetExcursie = preparedStatementExcursie.executeQuery();
@@ -84,7 +82,7 @@ public class RezervareRepository extends AbstractDbRepository<Integer, Rezervare
                 }
 
                 int idAgentieTurism = resultSet.getInt("agentieId");
-                String queryAgentieTurism = "SELECT * FROM AgentiiTurism WHERE agentieId = ?";
+                String queryAgentieTurism = "SELECT * FROM \"AgentiiTurism\" WHERE \"agentieId\" = ?";
                 PreparedStatement preparedStatementAgentie = dbConnection.getConn().prepareStatement(queryAgentieTurism);
                 preparedStatementAgentie.setInt(1, idAgentieTurism);
                 ResultSet resultSetAgentieTurism = preparedStatementAgentie.executeQuery();
@@ -108,7 +106,7 @@ public class RezervareRepository extends AbstractDbRepository<Integer, Rezervare
     public List<Rezervare> findAll() {
         LOG.info("Rezervare - findAll");
 
-        String query = "SELECT * FROM Rezervari";
+        String query = "SELECT * FROM \"Rezervari\"";
         List<Rezervare> rezervari = new ArrayList<>();
 
         try {
@@ -126,7 +124,7 @@ public class RezervareRepository extends AbstractDbRepository<Integer, Rezervare
                 );
 
                 int idExcursie = resultSet.getInt("excursieId");
-                String queryExcursie = "SELECT * FROM Excursii WHERE excursieId = ?";
+                String queryExcursie = "SELECT * FROM \"Excursii\" WHERE \"excursieId\" = ?";
                 PreparedStatement preparedStatementExcursie = dbConnection.getConn().prepareStatement(queryExcursie);
                 preparedStatementExcursie.setInt(1, idExcursie);
                 ResultSet resultSetExcursie = preparedStatementExcursie.executeQuery();
@@ -142,7 +140,7 @@ public class RezervareRepository extends AbstractDbRepository<Integer, Rezervare
                 }
 
                 int idAgentieTurism = resultSet.getInt("agentieId");
-                String queryAgentieTurism = "SELECT * FROM AgentiiTurism WHERE agentieId = ?";
+                String queryAgentieTurism = "SELECT * FROM \"AgentiiTurism\" WHERE \"agentieId\" = ?";
                 PreparedStatement preparedStatementAgentie = dbConnection.getConn().prepareStatement(queryAgentieTurism);
                 preparedStatementAgentie.setInt(1, idAgentieTurism);
                 ResultSet resultSetAgentieTurism = preparedStatementAgentie.executeQuery();
@@ -220,4 +218,6 @@ public class RezervareRepository extends AbstractDbRepository<Integer, Rezervare
 
         return Optional.empty();
     }
+
+
 }

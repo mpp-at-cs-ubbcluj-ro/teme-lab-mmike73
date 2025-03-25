@@ -1,12 +1,9 @@
 package org.example.infrastructure;
 
 import org.example.domain.AgentieTurism;
-import org.example.domain.Angajat;
-import org.example.domain.Excursie;
-import org.example.domain.Rezervare;
-import org.example.repo.AbstractDbRepository;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.example.repo.IAgentieRepository;
 
 
 import java.sql.PreparedStatement;
@@ -17,11 +14,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-public class AgentieRepository extends AbstractDbRepository<Integer, AgentieTurism> {
+public class AgentieRepository implements IAgentieRepository {
     private static final Logger LOG = LogManager.getLogger(AgentieRepository.class);
+    protected DbConnection dbConnection;
 
     public AgentieRepository(DbConnection dbConnection) {
-        super(dbConnection);
+        this.dbConnection = dbConnection;
     }
 
     @Override

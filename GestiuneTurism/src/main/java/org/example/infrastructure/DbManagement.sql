@@ -38,6 +38,8 @@ ALTER TABLE "Rezervari" ADD CONSTRAINT "fk_Rezervari_Excursii" FOREIGN KEY ("exc
 ALTER TABLE "Excursii" DROP COLUMN "pret";
 ALTER TABLE "Excursii" ADD COLUMN "pret" INT;
 
+ALTER TABLE "\"Angajati\""  ALTER COLUMN "\"username\"" ADD CONSTRAINT UNIQUE
+
 
 DROP  TABLE "Angajati";
 DROP  TABLE "Excursii";

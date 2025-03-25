@@ -79,7 +79,7 @@ public class CarsDBRepository implements CarRepository{
             pstmt.setString(1, elem.getManufacturer());
             pstmt.setString(2, elem.getModel());
             pstmt.setInt(3, elem.getYear());
-            pstmt.setInt(4, elem.getId());
+            pstmt.setInt(4, integer);
             pstmt.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
@@ -94,7 +94,13 @@ public class CarsDBRepository implements CarRepository{
              Statement stmt = conn.createStatement();
              ResultSet rs = stmt.executeQuery(sql)) {
             while (rs.next()) {
-                cars.add(new Car( rs.getString("manufacturer") , rs.getString("model") , rs.getInt("year")));
+                Car c = new Car(
+                        rs.getInt("id"),
+                        rs.getString("manufacturer"),
+                        rs.getString("model"),
+                        rs.getInt("year")
+                );
+                cars.add(c);
             }
         } catch (SQLException e) {
             e.printStackTrace();

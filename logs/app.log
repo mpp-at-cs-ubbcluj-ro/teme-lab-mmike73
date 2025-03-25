@@ -1,12 +1,12 @@
-2025-03-18 19:33:28 [main] INFO  org.example.infrastructure.AgentieRepository - AgentieTurism - findById: 1
-2025-03-18 19:33:29 [main] INFO  org.example.infrastructure.AgentieRepository - AgentieTurism - findById: 2
-2025-03-18 19:33:29 [main] INFO  org.example.infrastructure.AngajatRepository - Finding angajat 3
-2025-03-18 19:33:29 [main] INFO  org.example.infrastructure.AngajatRepository - Finding angajat 4
-2025-03-18 19:33:29 [main] INFO  org.example.infrastructure.ExcursieRepository - Excursie - findById: 3
-2025-03-18 19:33:29 [main] ERROR org.example.infrastructure.ExcursieRepository - The column name pret was not found in this ResultSet.
-2025-03-18 19:34:46 [main] INFO  org.example.infrastructure.AgentieRepository - AgentieTurism - findById: 1
-2025-03-18 19:34:46 [main] INFO  org.example.infrastructure.AgentieRepository - AgentieTurism - findById: 2
-2025-03-18 19:34:46 [main] INFO  org.example.infrastructure.AngajatRepository - Finding angajat 3
-2025-03-18 19:34:46 [main] INFO  org.example.infrastructure.AngajatRepository - Finding angajat 4
-2025-03-18 19:34:46 [main] INFO  org.example.infrastructure.ExcursieRepository - Excursie - findById: 3
-2025-03-18 19:34:46 [main] INFO  org.example.infrastructure.ExcursieRepository - Excursie - findById: 4
+2025-03-25 20:13:50 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Excursie - findAll
+2025-03-25 20:26:05 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Excursie - findAll
+2025-03-25 20:26:12 [JavaFX Application Thread] INFO  org.example.infrastructure.AngajatRepository - Angajat - findByUsername: Mihai
+2025-03-25 20:26:12 [JavaFX Application Thread] INFO  org.example.infrastructure.RezervareRepository - Rezervare - findAll
+2025-03-25 20:29:12 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Excursie - findAll
+2025-03-25 20:29:19 [JavaFX Application Thread] INFO  org.example.infrastructure.AngajatRepository - Angajat - findByUsername: Mihai
+2025-03-25 20:29:19 [JavaFX Application Thread] INFO  org.example.infrastructure.RezervareRepository - Rezervare - findAll
+2025-03-25 20:29:34 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Germania - Tabita - 700 - 2025-07-21T10:00
+2025-03-25 20:29:34 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Germania - Tabita - 700 - 2025-07-21T10:00
+2025-03-25 20:29:34 [JavaFX Application Thread] INFO  org.example.infrastructure.RezervareRepository - Rezervare - save: org.example.domain.Rezervare@66c2cd87
+2025-03-25 20:29:34 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Excursie - update: Germania - Tabita - 700 - 2025-07-21T10:00
+2025-03-25 20:29:34 [JavaFX Application Thread] INFO  org.example.infrastructure.RezervareRepository - Rezervare - findAll
