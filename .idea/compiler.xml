@@ -6,6 +6,7 @@
       <module name="Laborator2" target="21" />
       <module name="Laborator2.src.main.resources.main" target="21" />
       <module name="Laborator2.src.main.resources.test" target="21" />
+      <module name="untitled" target="21" />
     </bytecodeTargetLevel>
   </component>
 </project>
