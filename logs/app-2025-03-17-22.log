@@ -1,0 +1,28 @@
+2025-03-17 22:52:58 [main] INFO  org.example.infrastructure.AgentieRepository - AgentieTurism - findById: 1
+2025-03-17 22:52:58 [main] INFO  org.example.infrastructure.AgentieRepository - AgentieTurism - findById: 2
+2025-03-17 22:52:58 [main] INFO  org.example.infrastructure.AngajatRepository - Finding angajat 3
+2025-03-17 22:52:58 [main] INFO  org.example.infrastructure.AngajatRepository - Finding angajat 4
+2025-03-17 22:53:08 [main] INFO  org.example.infrastructure.AgentieRepository - AgentieTurism - findById: 1
+2025-03-17 22:53:08 [main] INFO  org.example.infrastructure.AgentieRepository - AgentieTurism - findById: 2
+2025-03-17 22:53:08 [main] INFO  org.example.infrastructure.AngajatRepository - Finding angajat 3
+2025-03-17 22:53:08 [main] INFO  org.example.infrastructure.AngajatRepository - Finding angajat 4
+2025-03-17 22:53:23 [main] INFO  org.example.infrastructure.AgentieRepository - AgentieTurism - findById: 1
+2025-03-17 22:53:28 [main] INFO  org.example.infrastructure.AgentieRepository - AgentieTurism - findById: 2
+2025-03-17 22:53:39 [main] INFO  org.example.infrastructure.AngajatRepository - Finding angajat 3
+2025-03-17 22:53:46 [main] INFO  org.example.infrastructure.AngajatRepository - Finding angajat 4
+2025-03-17 22:54:17 [main] INFO  org.example.infrastructure.AgentieRepository - AgentieTurism - findById: 1
+2025-03-17 22:54:17 [main] INFO  org.example.infrastructure.AgentieRepository - AgentieTurism - findById: 2
+2025-03-17 22:54:17 [main] INFO  org.example.infrastructure.AngajatRepository - Finding angajat 3
+2025-03-17 22:54:17 [main] INFO  org.example.infrastructure.AngajatRepository - Finding angajat 4
+2025-03-17 22:55:04 [main] INFO  org.example.infrastructure.AgentieRepository - AgentieTurism - findById: 1
+2025-03-17 22:55:04 [main] INFO  org.example.infrastructure.AgentieRepository - AgentieTurism - findById: 2
+2025-03-17 22:55:04 [main] INFO  org.example.infrastructure.AngajatRepository - Finding angajat 3
+2025-03-17 22:55:04 [main] INFO  org.example.infrastructure.AngajatRepository - Finding angajat 4
+2025-03-17 22:55:44 [main] INFO  org.example.infrastructure.AgentieRepository - AgentieTurism - findById: 1
+2025-03-17 22:55:44 [main] INFO  org.example.infrastructure.AgentieRepository - AgentieTurism - findById: 2
+2025-03-17 22:55:44 [main] INFO  org.example.infrastructure.AngajatRepository - Finding angajat 3
+2025-03-17 22:55:44 [main] INFO  org.example.infrastructure.AngajatRepository - Finding angajat 4
+2025-03-17 22:56:18 [main] INFO  org.example.infrastructure.AgentieRepository - AgentieTurism - findById: 1
+2025-03-17 22:56:18 [main] INFO  org.example.infrastructure.AgentieRepository - AgentieTurism - findById: 2
+2025-03-17 22:56:18 [main] INFO  org.example.infrastructure.AngajatRepository - Finding angajat 3
+2025-03-17 22:56:18 [main] INFO  org.example.infrastructure.AngajatRepository - Finding angajat 4

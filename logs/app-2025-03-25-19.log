@@ -1,0 +1,120 @@
+2025-03-25 19:00:45 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Excursie - findAll
+2025-03-25 19:00:55 [JavaFX Application Thread] INFO  org.example.infrastructure.AngajatRepository - Angajat - findByUsername: Mihai
+2025-03-25 19:00:55 [JavaFX Application Thread] INFO  org.example.infrastructure.RezervareRepository - Rezervare - findAll
+2025-03-25 19:01:20 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:01:26 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:01:30 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:02:07 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Excursie - findAll
+2025-03-25 19:02:13 [JavaFX Application Thread] INFO  org.example.infrastructure.AngajatRepository - Angajat - findByUsername: Mihai
+2025-03-25 19:02:13 [JavaFX Application Thread] INFO  org.example.infrastructure.RezervareRepository - Rezervare - findAll
+2025-03-25 19:02:33 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Italia - Wizz - 1000 - 2025-09-14T21:00
+2025-03-25 19:02:33 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Italia - Wizz - 1000 - 2025-09-14T21:00
+2025-03-25 19:02:42 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Italia - Wizz - 1000 - 2025-09-14T21:00
+2025-03-25 19:02:42 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Italia - Wizz - 1000 - 2025-09-14T21:00
+2025-03-25 19:02:42 [JavaFX Application Thread] INFO  org.example.infrastructure.RezervareRepository - Rezervare - save: org.example.domain.Rezervare@2875d022
+2025-03-25 19:02:42 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Excursie - update: Italia - Wizz - 1000 - 2025-09-14T21:00
+2025-03-25 19:02:42 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Excursie - findAll
+2025-03-25 19:02:51 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Italia - Wizz - 1000 - 2025-09-14T21:00
+2025-03-25 19:02:51 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Italia - Wizz - 1000 - 2025-09-14T21:00
+2025-03-25 19:02:51 [JavaFX Application Thread] INFO  org.example.infrastructure.RezervareRepository - Rezervare - save: org.example.domain.Rezervare@3829b08e
+2025-03-25 19:02:51 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Excursie - update: Italia - Wizz - 1000 - 2025-09-14T21:00
+2025-03-25 19:02:51 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Excursie - findAll
+2025-03-25 19:03:13 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Italia - Wizz - 1000 - 2025-09-14T21:00
+2025-03-25 19:03:13 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Italia - Wizz - 1000 - 2025-09-14T21:00
+2025-03-25 19:04:41 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Excursie - findAll
+2025-03-25 19:04:44 [JavaFX Application Thread] INFO  org.example.infrastructure.AngajatRepository - Angajat - findByUsername: Mihai
+2025-03-25 19:04:48 [JavaFX Application Thread] INFO  org.example.infrastructure.AngajatRepository - Angajat - findByUsername: Mihai
+2025-03-25 19:04:48 [JavaFX Application Thread] INFO  org.example.infrastructure.RezervareRepository - Rezervare - findAll
+2025-03-25 19:05:02 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Italia - Wizz - 1000 - 2025-09-14T21:00
+2025-03-25 19:05:02 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Italia - Wizz - 1000 - 2025-09-14T21:00
+2025-03-25 19:05:22 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Germania - Tabita - 700 - 2025-07-21T10:00
+2025-03-25 19:05:22 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Germania - Tabita - 700 - 2025-07-21T10:00
+2025-03-25 19:05:31 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Germania - Tabita - 700 - 2025-07-21T10:00
+2025-03-25 19:05:31 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Germania - Tabita - 700 - 2025-07-21T10:00
+2025-03-25 19:05:31 [JavaFX Application Thread] INFO  org.example.infrastructure.RezervareRepository - Rezervare - save: org.example.domain.Rezervare@514268a
+2025-03-25 19:05:31 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Excursie - update: Germania - Tabita - 700 - 2025-07-21T10:00
+2025-03-25 19:05:31 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Excursie - findAll
+2025-03-25 19:05:37 [JavaFX Application Thread] INFO  org.example.infrastructure.AngajatRepository - Angajat - findByUsername: Mihai
+2025-03-25 19:05:37 [JavaFX Application Thread] INFO  org.example.infrastructure.RezervareRepository - Rezervare - findAll
+2025-03-25 19:06:42 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Excursie - findAll
+2025-03-25 19:06:48 [JavaFX Application Thread] INFO  org.example.infrastructure.AngajatRepository - Angajat - findByUsername: Mihai
+2025-03-25 19:06:48 [JavaFX Application Thread] INFO  org.example.infrastructure.RezervareRepository - Rezervare - findAll
+2025-03-25 19:07:05 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:07:05 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:07:05 [JavaFX Application Thread] INFO  org.example.infrastructure.RezervareRepository - Rezervare - save: org.example.domain.Rezervare@5ece4327
+2025-03-25 19:07:05 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Excursie - update: Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:07:05 [JavaFX Application Thread] INFO  org.example.infrastructure.RezervareRepository - Rezervare - findAll
+2025-03-25 19:07:19 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:07:19 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:07:25 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:07:25 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:07:28 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:07:28 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:08:13 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Excursie - findAll
+2025-03-25 19:08:19 [JavaFX Application Thread] INFO  org.example.infrastructure.AngajatRepository - Angajat - findByUsername: Mihai
+2025-03-25 19:08:19 [JavaFX Application Thread] INFO  org.example.infrastructure.RezervareRepository - Rezervare - findAll
+2025-03-25 19:08:42 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:08:42 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:08:49 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:08:49 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:08:49 [JavaFX Application Thread] INFO  org.example.infrastructure.RezervareRepository - Rezervare - save: org.example.domain.Rezervare@7fe2a30e
+2025-03-25 19:08:49 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Excursie - update: Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:08:49 [JavaFX Application Thread] INFO  org.example.infrastructure.RezervareRepository - Rezervare - findAll
+2025-03-25 19:08:59 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:08:59 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:09:12 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:09:12 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:09:12 [JavaFX Application Thread] INFO  org.example.infrastructure.RezervareRepository - Rezervare - save: org.example.domain.Rezervare@226d266c
+2025-03-25 19:09:12 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Excursie - update: Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:09:12 [JavaFX Application Thread] INFO  org.example.infrastructure.RezervareRepository - Rezervare - findAll
+2025-03-25 19:09:19 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:09:19 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:09:31 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Germania - Tabita - 700 - 2025-07-21T10:00
+2025-03-25 19:09:31 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Germania - Tabita - 700 - 2025-07-21T10:00
+2025-03-25 19:09:53 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:09:53 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:09:56 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:09:56 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:09:56 [JavaFX Application Thread] INFO  org.example.infrastructure.RezervareRepository - Rezervare - save: org.example.domain.Rezervare@27ccca64
+2025-03-25 19:09:56 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Excursie - update: Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:09:56 [JavaFX Application Thread] INFO  org.example.infrastructure.RezervareRepository - Rezervare - findAll
+2025-03-25 19:10:00 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:10:00 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:13:08 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Excursie - findAll
+2025-03-25 19:13:17 [JavaFX Application Thread] INFO  org.example.infrastructure.AngajatRepository - Angajat - findByUsername: Mihai
+2025-03-25 19:13:17 [JavaFX Application Thread] INFO  org.example.infrastructure.RezervareRepository - Rezervare - findAll
+2025-03-25 19:13:25 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:13:25 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:13:39 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:13:39 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:16:54 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Excursie - findAll
+2025-03-25 19:17:00 [JavaFX Application Thread] INFO  org.example.infrastructure.AngajatRepository - Angajat - findByUsername: Mihai
+2025-03-25 19:17:00 [JavaFX Application Thread] INFO  org.example.infrastructure.RezervareRepository - Rezervare - findAll
+2025-03-25 19:17:11 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:17:11 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:18:51 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Excursie - findAll
+2025-03-25 19:19:03 [JavaFX Application Thread] INFO  org.example.infrastructure.AngajatRepository - Angajat - findByUsername: Mihai
+2025-03-25 19:19:03 [JavaFX Application Thread] INFO  org.example.infrastructure.RezervareRepository - Rezervare - findAll
+2025-03-25 19:19:14 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Germania - Tabita - 700 - 2025-07-21T10:00
+2025-03-25 19:19:14 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Germania - Tabita - 700 - 2025-07-21T10:00
+2025-03-25 19:19:56 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:19:57 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:23:19 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Excursie - findAll
+2025-03-25 19:23:25 [JavaFX Application Thread] INFO  org.example.infrastructure.AngajatRepository - Angajat - findByUsername: Mihai
+2025-03-25 19:23:25 [JavaFX Application Thread] INFO  org.example.infrastructure.RezervareRepository - Rezervare - findAll
+2025-03-25 19:23:34 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:23:34 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:23:47 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Germania - Tabita - 700 - 2025-07-21T10:00
+2025-03-25 19:23:47 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Germania - Tabita - 700 - 2025-07-21T10:00
+2025-03-25 19:23:56 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Italia - Wizz - 1000 - 2025-09-14T21:00
+2025-03-25 19:23:56 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Italia - Wizz - 1000 - 2025-09-14T21:00
+2025-03-25 19:28:25 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Excursie - findAll
+2025-03-25 19:28:34 [JavaFX Application Thread] INFO  org.example.infrastructure.AngajatRepository - Angajat - findByUsername: Mihai
+2025-03-25 19:28:34 [JavaFX Application Thread] INFO  org.example.infrastructure.RezervareRepository - Rezervare - findAll
+2025-03-25 19:28:46 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:28:46 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:28:46 [JavaFX Application Thread] INFO  org.example.infrastructure.RezervareRepository - Rezervare - save: org.example.domain.Rezervare@c268d2c
+2025-03-25 19:28:46 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Excursie - update: Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:28:46 [JavaFX Application Thread] INFO  org.example.infrastructure.RezervareRepository - Rezervare - findAll
+2025-03-25 19:28:56 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
+2025-03-25 19:28:56 [JavaFX Application Thread] INFO  org.example.infrastructure.ExcursieRepository - Checking number of places for Delta Dunarii - III-haaa trans - 600 - 2025-08-22T15:01:53.601334
